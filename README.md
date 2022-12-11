@@ -5,6 +5,7 @@ parameters on the command line (via ConfigDict flags).
 This is the expected format of the configuration with short descriptions for each
 field:
 
+```
 ml_collections.ConfigDict({
       'model_config':
           ml_collections.ConfigDict({
@@ -57,6 +58,7 @@ ml_collections.ConfigDict({
       'training_pool': String. Examples to train the model for this cycle on.
       'virtual_library': String. Selection pool for this cycle.
   })
+```
 
 Sample command with test data:
 
