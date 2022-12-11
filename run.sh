@@ -19,5 +19,5 @@ set -x
 virtualenv -p python3 .
 source ./bin/activate
 
-pip install -r al_for_fep/requirements.txt
-python3 -m al_for_fep.single_cycle_main --cycle_config al_for_fep/configs/simple_greedy_gaussian_process.py --cycle_config.cycle_dir ../cycle1 --cycle_config.training_pool al_for_fep/data/testdata/initial_training_set.csv --cycle_config.virtual_library=al_for_fep/data/testdata/virtual_library.csv
+pip install -r requirements.txt
+python3 -m single_cycle_main --cycle_config configs/simple_greedy_gaussian_process.py --cycle_config.cycle_dir ./cycle1 --cycle_config.training_pool data/testdata/initial_training_set.csv --cycle_config.virtual_library=data/testdata/virtual_library.csv

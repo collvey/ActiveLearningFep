@@ -1,4 +1,4 @@
-ligand_id,r_i_docking_score,Smiles,dG bind,dG bind err
+ligand_id,DockingScore,Smiles,dG,dG bind err
 549,-8.026525999999999,[H]c1nc([H])c(C(=O)N([H])c2c([H])c([H])nc(N([H])C(=O)C3([H])C([H])([H])C3([H])F)c2[H])c([H])c1[H],-1.8028048649362631,0.4498138923669451
 54,-8.717698,[H]c1nc(N([H])C(=O)C2([H])C([H])([H])C2([H])C([H])([H])[H])c([H])c(N([H])C(=O)c2c(Cl)c([H])c([H])c([H])c2Cl)c1[H],-0.6206305326515178,0.4605386900766982
 5500,-9.459071,[H]Oc1c([H])c([H])c(Cl)c(C(=O)N([H])c2c([H])c([H])nc(N([H])C(=O)C([H])([H])SC([H])(F)F)c2[H])c1[H],-0.0361783081117721,0.465738810341489
