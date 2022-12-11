@@ -20,7 +20,7 @@ import unittest
 import numpy as np
 from sklearn import linear_model
 
-from al_for_fep.models import half_sample
+from models import half_sample
 
 
 class HalfSampleTest(unittest.TestCase):

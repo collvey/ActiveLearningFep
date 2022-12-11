@@ -20,7 +20,7 @@ from absl.testing import parameterized
 import numpy as np
 import pandas as pd
 
-from al_for_fep.data import utils
+from data import utils
 
 _FEATURE_COLUMN = 'features'
 

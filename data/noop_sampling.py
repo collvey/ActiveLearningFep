@@ -17,7 +17,7 @@
 from typing import Iterable, Tuple
 import numpy as np
 
-from al_for_fep.data import data_splitting_strategy
+from data import data_splitting_strategy
 
 
 class NoOpSplit(data_splitting_strategy.DataSplittingStrategy):

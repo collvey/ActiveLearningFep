@@ -19,7 +19,7 @@ import unittest
 from absl.testing import parameterized
 import numpy as np
 
-from al_for_fep.data import half_sampling
+from data import half_sampling
 
 
 class HalfSamplingTest(parameterized.TestCase):
