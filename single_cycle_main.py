@@ -20,7 +20,7 @@ from typing import Sequence
 from absl import app
 from ml_collections.config_flags import config_flags
 
-from al_for_fep import single_cycle_lib
+import single_cycle_lib
 
 _CYCLE_CONFIG = config_flags.DEFINE_config_file(
     name='cycle_config',
