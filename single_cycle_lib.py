@@ -25,7 +25,7 @@ import ml_collections
 from modAL import models
 import pandas as pd
 
-import utils
+from utils import utils
 
 _TRAINING_EXAMPLE_KEY = 'Training Example'
 _BAYESIAN_MODELS = ['gp']

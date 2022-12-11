@@ -21,7 +21,7 @@ import joblib
 import numpy as np
 from sklearn import neural_network
 
-from al_for_fep.models import makita_model
+from models import makita_model
 
 
 class SklearnMLPModel(makita_model.MakitaModel):

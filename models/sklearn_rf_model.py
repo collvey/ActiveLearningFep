@@ -20,7 +20,7 @@ from typing import Any, Dict
 import joblib
 from sklearn import ensemble
 
-from al_for_fep.models import makita_model
+from models import makita_model
 
 
 class SklearnRfModel(makita_model.MakitaModel):

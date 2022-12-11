@@ -21,7 +21,7 @@ import joblib
 import numpy as np
 from sklearn import gaussian_process
 
-from al_for_fep.models import makita_model
+from models import makita_model
 
 
 def _tanimoto_similarity(a, b):

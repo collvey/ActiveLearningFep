@@ -16,15 +16,15 @@
 """Utilities for the Makita concentrated pipeline."""
 from modAL import acquisition
 
-from al_for_fep.data import utils
-from al_for_fep.models import half_sample
-from al_for_fep.models import sklearn_elasticnet_model
-from al_for_fep.models import sklearn_gaussian_process_model
-from al_for_fep.models import sklearn_gbm_model
-from al_for_fep.models import sklearn_linear_model
-from al_for_fep.models import sklearn_mlp_model
-from al_for_fep.models import sklearn_rf_model
-from al_for_fep.selection import acquisition_functions
+from data import utils
+from models import half_sample
+from models import sklearn_elasticnet_model
+from models import sklearn_gaussian_process_model
+from models import sklearn_gbm_model
+from models import sklearn_linear_model
+from models import sklearn_mlp_model
+from models import sklearn_rf_model
+from selection import acquisition_functions
 
 QUERY_STRATEGIES = {
     'greedy': acquisition_functions.greedy,
