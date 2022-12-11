@@ -1,3 +1,5 @@
+This repo was branched from https://github.com/google-research/google-research/tree/master/al_for_fep
+
 The active learning cycle is defined by a single configuration file. Simply pass
 the configuration to the module to run. It is possible to override configuration
 parameters on the command line (via ConfigDict flags).
