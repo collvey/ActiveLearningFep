@@ -65,6 +65,16 @@ Sample command with test data:
 ```
 python3 -m single_cycle_main \
   --cycle_config ./configs/simple_greedy_gaussian_process.py \
+  --cycle_config.cycle_dir ./cycle_1 \
+  --cycle_config.training_pool ./data/test/initial_training_test.csv \
+  --cycle_config.virtual_library=./data/test/virtual_library.csv
+```
+
+Sample command with prod data:
+
+```
+python3 -m single_cycle_main \
+  --cycle_config ./configs/simple_greedy_gaussian_process.py \
   --cycle_config.cycle_dir ./cycle_prod_1 \
   --cycle_config.training_pool ./tyk2_dataset/initial_tyk2_training.csv \
   --cycle_config.virtual_library=./tyk2_dataset/tyk2_fep_1.csv
